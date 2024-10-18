@@ -1,32 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
-@media only screen and (max-width: 768px) {
-    .container {
-        padding: 10px;
-        font-size: 14px; /* giảm cỡ chữ cho điện thoại */
-    }
-    .header {
-        font-size: 20px;
-    }
-    .image {
-        width: 100%; /* hình ảnh chiếm hết chiều rộng màn hình điện thoại */
-    }
-}
 
-/* Styles cho các màn hình có chiều rộng lớn hơn 768px (máy tính bảng, máy tính) */
-@media only screen and (min-width: 769px) {
-    .container {
-        padding: 20px;
-        font-size: 18px; /* tăng cỡ chữ cho màn hình lớn */
-    }
-    .header {
-        font-size: 30px;
-    }
-    .image {
-        width: 50%; /* hình ảnh chiếm 50% chiều rộng màn hình lớn */
-    }
-}
 
 *{
     padding: 0;
